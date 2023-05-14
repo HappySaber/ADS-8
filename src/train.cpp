@@ -29,7 +29,7 @@ int Train::getLength() {
           countOp++;
         } else {
           f->light = false;
-          for (int i = 0; i < count; i++) {
+          for (int i = count; i > 0; i--) {
             f = f->prev;
             countOp++;
           }
