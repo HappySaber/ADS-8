@@ -40,7 +40,7 @@ int Train::getLength() {
           if (f->light = false)
             return count;
           else
-            count = 1;
+            count == 1;
         }
     }
 }
