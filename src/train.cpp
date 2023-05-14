@@ -3,7 +3,7 @@
 Train::Train() : first(nullptr), countOp(0) {}
 
 void Train::addCage(bool light) {
-  Cage* cage;
+  Cage* cage = nullptr;
   if (first == nullptr) {
     first = new Cage;
     first->light = light;
